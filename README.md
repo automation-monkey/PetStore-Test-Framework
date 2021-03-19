@@ -4,11 +4,48 @@ Home Challenge For N26
 
 
 
-# Running API Tests on your local machine
+# Challange 2
+
+## Proposed test cases for automation:
+
+### Pet Endpoint
+1. test_pet_update_data
+2. test_pet_add_new
+3. test_pet_find_by_status
+4. test_pet_find_by_tags
+5. test_pet_find_by_id
+6. test_pet_find_with_invalid_id
+7. test_pet_find_with_non_existing_id
+8. test_pet_update_pet_data_using_parameter
+9. test_pet_delete_pet
+10. test_pet_upload_image
+
+### Store Endpoint
+1. test_store_get_inventory_status
+2. test_store_place_invalid_order_for_pet
+3. test_store_place_order_for_pet_with_different_statuses
+4. test_store_find_order_by_id
+5. test_store_find_order_with_non_existing_id
+6. test_store_find_order_with_invalid_id
+7. test_store_delete_order_by_id
+8. test_store_delete_order_by_invalid_id
+
+### User Endpoint
+1. test_user_create_new_and_log_in
+2. test_create_user_new_fails_if_request_data_invalid
+3. test_create_user_new_with_list
+4. test_user_login
+5. test_user_logout
+6. test_user_get_info_with_valid_username
+7. test_user_get_info_with_invalid_username
+8. test_user_get_info_with_non_existing_username
+9. test_delete_user
+
+## Running API Tests on your local machine
 This project contains tests for the pet store sample hosted at https://petstore3.swagger.io written in Python3 using [pytest](https://docs.pytest.org/).
 
 
-## Docker
+### Docker
 In order to interact with the pet store server locally you will need to run it in a container.
 - [Download and install](https://www.docker.com/products/docker-desktop)
 
@@ -27,7 +64,7 @@ Setup and configure a new container for the petstore project:
 3. Make sure the docker you created is up and running by going to http://localhost:8080/
 
 
-## APITests
+### APITests
 ### 1. Repository
 Fork https://github.com/automation-monkey/kujan-hutage.git and clone it to your machine.
 
