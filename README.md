@@ -5,20 +5,20 @@ Home Challenge For N26
 
 
 # Running API Tests on your local machine
+This project contains tests for the pet store sample hosted at https://petstore3.swagger.io written in Python3 using [pytest](https://docs.pytest.org/).
+
 
 ## Docker
 In order to interact with the pet store server locally you will need to run it in a container.
 - [Download and install](https://www.docker.com/products/docker-desktop)
 
 Setup and configure a new container for the petstore project:
-docker pull swaggerapi/petstore3:unstable
-docker run  --name swaggerapi-petstore3 -d -p 8080:8080 swaggerapi/petstore3:unstable
+1. docker pull swaggerapi/petstore3:unstable
+2. docker run  --name swaggerapi-petstore3 -d -p 8080:8080 swaggerapi/petstore3:unstable
+3. Make sure the docker you created is up and running by going to http://localhost:8080/
 
 
 ## APITests
-This project contains tests for the pet store sample hosted at https://petstore3.swagger.io written in Python3 using [pytest](https://docs.pytest.org/).
-
-## Testing environment
 ### 1. Repository
 Fork https://github.com/automation-monkey/kujan-hutage.git and clone it to your machine.
 
