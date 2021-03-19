@@ -1,10 +1,14 @@
 # kujan-hutage
-Home Challenge For N26
+
 
 
 
 
 # Challange 2
+This project contains tests for the pet store sample hosted at https://petstore3.swagger.io written in Python3 using [pytest](https://docs.pytest.org/).
+I decided to use this tech stack since:
+1. Easy to setup and run tests
+2. Reporting tool that makes life easy when investigating test failures.  
 
 ## Proposed test cases for automation:
 
@@ -42,8 +46,6 @@ Home Challenge For N26
 9. test_delete_user
 
 ## Running API Tests on your local machine
-This project contains tests for the pet store sample hosted at https://petstore3.swagger.io written in Python3 using [pytest](https://docs.pytest.org/).
-
 
 ### Docker
 In order to interact with the pet store server locally you will need to run it in a container.
