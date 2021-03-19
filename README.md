@@ -13,8 +13,8 @@ In order to interact with the pet store server locally you will need to run it i
 - [Download and install](https://www.docker.com/products/docker-desktop)
 
 Setup and configure a new container for the petstore project:
-1. docker pull swaggerapi/petstore3:unstable
-2. docker run  --name swaggerapi-petstore3 -d -p 8080:8080 swaggerapi/petstore3:unstable
+1. Clone the petstore repo to local machine ```$ docker pull swaggerapi/petstore3:unstable```
+2. Create a new docker ```$ docker run  --name swaggerapi-petstore3 -d -p 8080:8080 swaggerapi/petstore3:unstable```
 3. Make sure the docker you created is up and running by going to http://localhost:8080/
 
 
