@@ -2,7 +2,7 @@
 This project contains tests for the pet store sample hosted at https://petstore3.swagger.io written in Python3 using 
 [pytest](https://docs.pytest.org/).
 
-###Reasons I decided to use this tech stack:
+#### Reasons I decided to use this tech stack:
 * Simple syntax, pytest is very easy to start with.
 * Pytest has a report tool that works great out of the box.
 * Pytest allows us to run a subset of the entire test suite.
