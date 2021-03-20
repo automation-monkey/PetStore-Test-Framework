@@ -50,8 +50,8 @@ Test were created from the swagger documentation that is provided with the pet s
 
 ### Framework Structure:
 
-* In order to keep it nice and tidy, each endpoint has its own test folder. Each folder contains a test list and json 
-  schema files.
+* In order to keep it nice and tidy, each endpoint has its own test folder. 
+* Each folder contains a test list and json schema files.
 * Test names give accurate description of the scenario that is being tested.  
 * Default urls used to call endpoint in the framework can be modified in the config.py file.
 * All generic methods the tests use are located in the utils.py file.
