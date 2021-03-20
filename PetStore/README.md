@@ -2,7 +2,7 @@
 This project contains tests for the pet store sample hosted at https://petstore3.swagger.io written in Python3 using 
 [pytest](https://docs.pytest.org/).
 
-#### Reasons I decided to use this tech stack:
+####Reasons I decided to use this tech stack:
 * Simple syntax, pytest is very easy to start with.
 * Pytest has a report tool that works great out of the box.
 * Pytest allows us to run a subset of the entire test suite.
@@ -11,6 +11,8 @@ This project contains tests for the pet store sample hosted at https://petstore3
 
 
 ### Proposed test cases for automation:
+
+Test were created from the swagger documentation that is provided with the pet store project.
 
 #### Pet Endpoint
 1. test_pet_add_new
@@ -45,6 +47,14 @@ This project contains tests for the pet store sample hosted at https://petstore3
 9. test_user_update
 10. test_user_update_non_existing_user
 11. test_delete_user
+
+### Framework Structure:
+
+* In order to keep it nice and tidy, each endpoint has its own test folder. Each folder contains a test list and json 
+  schema files.
+* Test names give accurate description of the scenario that is being tested.  
+* Default urls used to call endpoint in the framework can be modified in the config.py file.
+* All generic methods the tests use are located in the utils.py file.
 
 
 ### Running API Tests on your local machine
