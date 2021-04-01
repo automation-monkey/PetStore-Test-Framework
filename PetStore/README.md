@@ -1,6 +1,6 @@
 # Testing a RESTful API
-This project contains tests for the pet store sample hosted at https://petstore3.swagger.io written in Python3 using 
-[pytest](https://docs.pytest.org/). More info about the Pet Store playground can be found at https://github.com/swagger-api/swagger-petstore.
+This project contains tests for the [pet store sample](https://petstore3.swagger.io) written in Python3 using 
+[pytest](https://docs.pytest.org/). More info about the Pet Store playground can be found [here](https://github.com/swagger-api/swagger-petstore).
 
 #### Reasons I decided to use this tech stack:
 * Simple syntax, pytest is very easy to start with.
