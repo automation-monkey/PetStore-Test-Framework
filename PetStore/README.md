@@ -105,9 +105,9 @@ Supported environments:
 - http://localhost:8080/
 
 #### 6. Run a test!
-Change directory to `N26`
+Change directory to `petstore`
 
-```$ cd N26```
+```$ cd petstore```
 
 To run all the tests simply run
 
