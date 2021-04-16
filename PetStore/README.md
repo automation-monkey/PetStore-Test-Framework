@@ -119,7 +119,7 @@ To make it verbose use
 
 Use the path to the file to run a specific test 
 
-```$ pytest /N26/tests/pet/test_pet.py```
+```$ pytest /petstore/tests/pet/test_pet.py```
 
 You can generate a html and xml reports using
 
