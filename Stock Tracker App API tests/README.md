@@ -3,7 +3,41 @@
 This project contains automated API testing framework for the [Stock Tracker App](https://github.com/automate-digital/stocktracker-py) written in Python3 using 
 [pytest](https://docs.pytest.org/).
 
-## Test Plan   
+### Setup & Running tests
+
+Setup Stock Tracker App according to their instructions.
+
+#### Install project dependencies:
+
+Tests require Python3.
+        
+    pip3 install -r requirements.txt
+
+Change directory to `tests`
+
+```$ cd tests```
+
+To run all the tests simply run
+
+```$ pytest```
+
+To make it verbose use
+
+```$ pytest -v```
+
+You can generate a html and xml reports using
+
+```$ pytest --html=html/report.html --junitxml=xml/report.xml```
+
+To run tests in parallel specify the number of processes (N)
+
+```$ pytest -n 4```
+
+The basic command which runs all the tests in parallel and generates a report
+
+```$ pytest -v --html=html/report.html --self-contained-html --junitxml=xml/report.xml tests/ -n 4```
+
+# Test Plan   
 
 1. Test Scope:
    
@@ -70,7 +104,7 @@ This project contains automated API testing framework for the [Stock Tracker App
 
 
 
-### Notes on improvements that could be considered to further develop the tests
+# Notes on improvements that could be considered to further develop the tests
 Since the app is based on a 3rd party API I suggest:
 - Add tests that check the actual valuation of stocks added to app and comparing it with the portfolio created by the app.
 - Create cases that check how app behaves during downtime, since app is relaying on [alphavantage](https://www.alphavantage.co/) endpoints.
